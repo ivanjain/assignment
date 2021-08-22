@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Customer Information</title>
+</head>
+
+<body>
+    <form id="form" action="customerinformation.html">
+        <h1>KEWALS TRAVEL AGENCY</h1>
+        <h3>Customer Information form</h3>
+        <h5>Please provide the following Information so we can help you with your travel needs.</h5>
+        <div id="main">
+            <div> <label>Your Name:</label><input type="text" name="name" id="name"></div>
+            <div><label>Address :</label><input type="text" name="Address" id="address"></div>
+            <div><label>Mobile :</label><input type="tel" name="phone" id="phone"></div>
+            <div><label>Comments</label><br><textarea rows="5" cols="50" id="multiLineInput"></textarea></div>
+            <div><label>Service:</label><br><input type="checkbox" name="service" id="flight" checked> Flight <input
+                    type="checkbox" name="service" id="hotel"> Hotel <input type="checkbox" name="service" id="car"> car
+            </div>
+            <div><label id="ret">Returning Customer</label><br><input type="radio" name="returning customer" id="yes"
+                    checked> Yes
+                <input type="radio" name="returning customer" id="no"> No
+                <input type="radio" name="returning customer" id="May be"> May be
+            </div>
+            <div>
+                <label>Continent:</label><br>
+                <select>
+                    <option value="Australia">Australia</option>
+                    <option value="Europe">Europe</option>
+                    <option value="North America">North America</option>
+                    <option value="Asia">Asia</option>
+                </select>
+            </div>
+            <div><input type="submit" value="SUBMIT" name="submit" id="submit"> <input type="reset" value="RESET"
+                    name="reset" id="reset">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

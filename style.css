@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+#form {
+    background-color: #97b982;
+    border: 5px solid black;
+    width: 600px;
+    height: 560px;
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    padding-left: 15px;
+
+    margin-bottom: 5px;
+}
+
+h5 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+
+#comments {
+    width: 365px;
+    height: 80px;
+    t
+}
+
+label {
+    display: inline-block;
+    text-align: left;
+    width: 90px;
+}
+
+#main {
+    padding: 5px;
+    margin: 10px;
+}
+
+div {
+    padding: 2px;
+    margin-top: 10px;
+}
+
+#address {
+    width: 275px;
+
+}
+
+checkbox {
+    padding: 2px;
+}
+
+#ret {
+    width: 200px;
+}

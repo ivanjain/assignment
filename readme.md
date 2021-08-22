@@ -1,0 +1,1 @@
+create customer information form  with html and css
