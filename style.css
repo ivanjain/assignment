@@ -3,7 +3,10 @@
     padding: 0px;
     margin: 0px;
 }
-
+body{
+    width: 600px;
+    height: 560px; ;
+}
 #form {
     background-color: #bdd6ad;
     border: 5px solid black;
