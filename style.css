@@ -5,25 +5,31 @@
 }
 body{
     width: 600px;
-    height: 560px; ;
+    height: 560px; 
 }
 #form {
-    background-color: #bdd6ad;
+    background-color: #d0d6cc;
     border: 5px solid black;
     width: 600px;
-    height: 560px;
+    height: 600px;
     display: inline-block;
+    background-image: url("/images/logo.png");
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-position: 506px 7px;
+        background-size: 80px 80px;
 }
 
 h1 {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
+    font-size: 34px;
 }
 
 h3 {
     padding-left: 15px;
-
+    font-size: 20px;
     margin-bottom: 5px;
 }
 
@@ -31,22 +37,24 @@ h5 {
     margin-top: 10px;
     margin-bottom: 15px;
     padding-left: 15px;
+    font-size: 15px;
 }
 
 #comments {
     width: 365px;
     height: 80px;
-    t
+    
 }
 
 label {
     display: inline-block;
-    text-align: left;
+    text-align:left;
     width: 90px;
 }
 #main {
     padding: 5px;
     margin: 10px;
+    font-size: 16px;
 }
 
 div {
@@ -64,4 +72,11 @@ checkbox {
 
 #ret {
     width: 200px;
+}
+.select{
+    
+    padding: 4px;
+}
+.btn{
+ width: 67px;
 }
